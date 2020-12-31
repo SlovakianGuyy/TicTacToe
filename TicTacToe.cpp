@@ -56,7 +56,7 @@ void TicTacToe()
 				filled++;
 				pnext = true;
 			}
-			else std::cout << "Already filled !!\n";
+			else std::cout << "\nAlready filled !!\n";
 		}
 
 		TicTacToeRender(xo[0], xo[1], xo[2], xo[3], xo[4], xo[5], xo[6], xo[7], xo[8]);
@@ -78,7 +78,7 @@ void TicTacToe()
 				filled++;
 				pnext = true;
 			}
-			else std::cout << "Already filled !!\n";
+			else std::cout << "\nAlready filled !!\n";
 			won = TicTacToeCheck(xo[0], xo[1], xo[2], xo[3], xo[4], xo[5], xo[6], xo[7], xo[8]);
 			if (won) {
 				for (int i = 0; i < xo.size(); i++) {
